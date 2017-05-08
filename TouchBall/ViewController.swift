@@ -12,14 +12,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblScore: UILabel!
     var score = 0
     var ballCount = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         startGame()
     }
-
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-
+        
     }
     
     func startGame() {
